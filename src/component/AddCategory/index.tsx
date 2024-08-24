@@ -59,7 +59,7 @@ const AddCategoryComponent: React.FC = () => {
     }
     return (
         <View style={styles.container}>
-            <SmallText>Add Product</SmallText>
+            <SmallText>Add Category</SmallText>
             <TextFInput
                 label='Name'
                 onChange={setName}
